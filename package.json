@@ -1,0 +1,28 @@
+{
+  "name": "webworker-vs-timer",
+  "version": "1.0.0",
+  "description": "WebWorker vs. Timer",
+  "homepage": "https://github.com/azu/webworker-vs-timer",
+  "bugs": {
+    "url": "https://github.com/azu/webworker-vs-timer/issues"
+  },
+  "license": "MIT",
+  "author": "azu",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "main": "lib/webworker-vs-timer.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/webworker-vs-timer.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
