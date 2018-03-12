@@ -2,15 +2,7 @@
 
 WebWorker vs. Timer
 
-## Install
-
-Install with [npm](https://www.npmjs.com/):
-
-    npm install webworker-vs-timer
-
-## Usage
-
-- [ ] Write usage instructions
+Open 
 
 ## Changelog
 
