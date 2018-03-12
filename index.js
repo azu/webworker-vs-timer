@@ -50,11 +50,11 @@ const processWorker = (worker, message) => {
 };
 workerButton.addEventListener("click", () => {
     const worker = createWorker();
-    processWorker(worker, "strtrin".repeat(1000000));
+    processWorker(worker, "Hi");
 });
 inlineWorkerButton.addEventListener("click", () => {
     const worker = createInlineWorker(`self.addEventListener('message', function(e) {
     self.postMessage(e.data);
-}, false);`.repeat(1000));
-    processWorker(worker, "xxxxxxxx".repeat(1000000));
+}, false);`);
+    processWorker(worker, "Hi");
 });
